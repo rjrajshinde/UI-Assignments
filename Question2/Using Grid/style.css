@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+section {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.line {
+  height: 2px;
+  background-color: #4d2c61;
+  width: 200px;
+  margin-left: 753px;
+  opacity: 0.4;
+}
+
+h1 span {
+  color: #4d2c61;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.icons {
+  margin-top: 30px;
+}
+
+.first-column-icons {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.second-column-icons {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 180px 80px 80px 80px 80px 80px 80px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+/* .first-column-icons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.second-column-icons {
+  margin-top: 20px;
+  margin-left: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+} */
